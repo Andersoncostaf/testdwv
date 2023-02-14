@@ -1,0 +1,6 @@
+<ul>
+  <li><%= link "FizzBuzz", to: "/fizzbuzz" %></li>
+  <li><%= link "Fizz", to: "/fizz" %></li>
+  <li><%= link "Buzz", to: "/buzz" %></li>
+  <li><%= link "Other", to: "/other" %></li>
+</ul>

@@ -3,3 +3,10 @@
   <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
   <%= @inner_content %>
 </main>
+
+<ul>
+  <li><%= link "FizzBuzz", to: "/fizzbuzz" %></li>
+  <li><%= link "Fizz", to: "/fizz" %></li>
+  <li><%= link "Buzz", to: "/buzz" %></li>
+  <li><%= link "Other", to: "/other" %></li>
+</ul>

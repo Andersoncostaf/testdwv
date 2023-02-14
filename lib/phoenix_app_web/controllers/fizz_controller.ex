@@ -6,5 +6,7 @@ defmodule PhoenixAppWeb.FizzController do
     render conn, "index.html", fizz: fizz
   end
 
-  defp fizz?(n), do: n % 3 == 0
+  defp fizz?(n) do
+    n % 3 == 0
+  end
 end
